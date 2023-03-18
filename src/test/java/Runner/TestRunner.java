@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "src//test//java//FeatureFiles" }, glue = { "StepDef" },dryRun=false, plugin = {"pretty", "html:target/Destination.html"} )
+@CucumberOptions(features = { "src//test//java//FeatureFiles" }, glue = { "StepDef" },dryRun=false, plugin = {"pretty", "html:target/report.html"} )
 public class TestRunner {
 
 }
